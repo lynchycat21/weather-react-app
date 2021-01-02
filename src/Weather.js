@@ -3,7 +3,7 @@ import axios from 'axios';
 
 export default function Weather(props) {
     function showTemperature(response) {
-        alert(`The weather in Madrid is ${response.data.main.temp}°C`);
+        alert(`The weather in ${response.data.name} is ${response.data.main.temp}°C`);
     }
   let apiKey = "9036b9a17b31220b33901d3c3a2c9847";
 let apiUrl =
