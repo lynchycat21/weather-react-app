@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import axios from 'axios';
 
 export default function Weather(props) {
@@ -43,7 +43,7 @@ let apiUrl =
           </div>
           <div className="col-3">
             <button type="button" className="btn btn-outline-secondary w-100">
-              My Location
+              Here
             </button>
           </div>
         </div>
