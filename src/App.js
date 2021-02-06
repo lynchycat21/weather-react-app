@@ -8,7 +8,7 @@ function App() {
           
         </h1>
         <Weather city="Madrid" />
-        <a href="https://github.com/lynchycat21/weather-react-app">Open source code</a> by Cathy Lynch.
+       <footer> <a href="https://github.com/lynchycat21/weather-react-app" target="_blank">Open source code on GitHub</a> by <a href="https://www.linkedin.com/in/cathy-lynch-85042846/" target="_blank"> Cathy Lynch</a>.</footer>
     </div>
   );
 }
